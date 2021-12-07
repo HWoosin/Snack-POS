@@ -1,0 +1,28 @@
+﻿<Page x:Class="편의점_포스MVVM.재고조회"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:편의점_포스MVVM"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="526.261"
+      Title="재고조회">
+
+    <Grid>
+        <GroupBox Header="창고재고&#xD;&#xA;" HorizontalAlignment="Left" Height="421" VerticalAlignment="Top" Width="360">
+            <DataGrid x:Name="product" HorizontalAlignment="Left" Height="382" VerticalAlignment="Top" Width="338" RenderTransformOrigin="1.082,0.868" Margin="0,-9,0,0" AutoGenerateColumns="False" ItemsSource="{Binding Path= ProductDatas, Mode=TwoWay, NotifyOnSourceUpdated=True, NotifyOnTargetUpdated=True}">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Width="*" Header="Name" Binding="{Binding Name}"/>
+                    <DataGridTextColumn Width="*" Header="Maker" Binding="{Binding Maker}"/>
+                    <DataGridTextColumn Width="*" Header="Price" Binding="{Binding Price}"/>
+                    <DataGridTextColumn Width="*" Header="Count" Binding="{Binding Count}"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </GroupBox>
+        <GroupBox Header="수량 수정" HorizontalAlignment="Left" Height="81" VerticalAlignment="Top" Width="151" Margin="365,10,0,0">
+            <TextBox x:Name="Count_Copy" DataContext="{Binding SelectedItem, ElementName=product}" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="6,17,0,0" Text="{Binding Count, Mode=TwoWay}"/>
+        </GroupBox>
+
+
+    </Grid>
+</Page>

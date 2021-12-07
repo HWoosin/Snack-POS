@@ -1,0 +1,45 @@
+﻿<Page x:Class="편의점_포스MVVM.상품결제"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:편의점_포스MVVM"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="상품결제" Height="547.478" Width="599.703">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="47*"/>
+            <ColumnDefinition Width="28*"/>
+        </Grid.ColumnDefinitions>
+        <GroupBox Header="총 가격" HorizontalAlignment="Left" Height="45" VerticalAlignment="Top" Width="274" Margin="294,10,0,0" Grid.ColumnSpan="2">
+            <TextBox HorizontalAlignment="Left" Height="19" TextWrapping="Wrap" VerticalAlignment="Top" Width="264" Margin="0,0,-2,0" Text="{Binding Total}"/>
+        </GroupBox>
+        <GroupBox Header="받은 금액" HorizontalAlignment="Left" Height="53" VerticalAlignment="Top" Width="274" Margin="294,60,0,0" Grid.ColumnSpan="2">
+            <TextBox x:Name="돈" HorizontalAlignment="Left" Height="26" TextWrapping="Wrap" VerticalAlignment="Top" Width="264" Margin="0,0,-2,0" Text="{Binding Money}"/>
+        </GroupBox>
+        <Button x:Name="결제" Content="결제" HorizontalAlignment="Left" VerticalAlignment="Top" Width="80" Margin="299,183,0,0" Height="86" Command="{Binding 계산}" Grid.ColumnSpan="2" Click="결제_Click"/>
+
+        <Button Content="떡볶이" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="14,27,0,0" Height="66" Command="{Binding 떡볶이추가해}"/>
+        <Button Content="순대" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="106,27,0,0" Height="66"  Command="{Binding 순대추가해}"/>
+        <Button Content="김밥" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="201,27,0,0" Height="66" Command="{Binding 김밥추가해}"/>
+        <Button Content="튀김" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="14,116,0,0" Height="66" Command="{Binding 튀김추가해}"/>
+        <Button Content="어묵탕" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="106,116,0,0" Height="66" Command="{Binding 어묵탕추가해}"/>
+        <Button Content="주먹밥" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="201,116,0,0" Height="66" Command="{Binding 주먹밥추가해}"/>
+        <Button Content="떡꼬치" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="14,203,0,0" Height="66" Command="{Binding 떡꼬치추가해}"/>
+        <Button Content="닭꼬치" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="106,203,0,0" Height="66" Command="{Binding 닭꼬치추가해}"/>
+        <Button Content="라면" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="201,203,0,0" Height="66" Command="{Binding 라면추가해}"/>
+
+        <Button x:Name="취소" Content="취소" HorizontalAlignment="Left" VerticalAlignment="Top" Width="73" Margin="22,183,0,0" Height="86" Grid.Column="1" Command="{Binding 취소}"/>
+        <Label Content="메뉴" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="14,0,0,0" Height="29" Width="38"/>
+
+        <GroupBox Header="거스름돈" HorizontalAlignment="Left" Height="51" VerticalAlignment="Top" Width="274" Grid.ColumnSpan="2" Margin="294,118,0,0">
+            <TextBox HorizontalAlignment="Left" Height="26" Margin="0,0,0,-1" TextWrapping="Wrap" VerticalAlignment="Top" Width="259" Text="{Binding Result}" Grid.ColumnSpan="2"/>
+        </GroupBox>
+        <Button x:Name="초기화" Content="초기화" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Grid.Column="1" Margin="114,183,0,0" Height="86" Command="{Binding 초기화}" Click="초기화_Click" />
+
+
+
+    </Grid>
+</Page>
