@@ -1,0 +1,27 @@
+C:\Woosin\용인대학교 컴퓨터과학과\3학년2학기\윈도우고급심화(월,수)\프로젝트\분식집POS\분식집POS\bin\Debug\분식집POS.exe.config
+C:\Woosin\용인대학교 컴퓨터과학과\3학년2학기\윈도우고급심화(월,수)\프로젝트\분식집POS\분식집POS\bin\Debug\분식집POS.exe
+C:\Woosin\용인대학교 컴퓨터과학과\3학년2학기\윈도우고급심화(월,수)\프로젝트\분식집POS\분식집POS\bin\Debug\분식집POS.pdb
+C:\Woosin\용인대학교 컴퓨터과학과\3학년2학기\윈도우고급심화(월,수)\프로젝트\분식집POS\분식집POS\obj\Debug\분식집POS.csproj.AssemblyReference.cache
+C:\Woosin\용인대학교 컴퓨터과학과\3학년2학기\윈도우고급심화(월,수)\프로젝트\분식집POS\분식집POS\obj\Debug\MainWindow.g.cs
+C:\Woosin\용인대학교 컴퓨터과학과\3학년2학기\윈도우고급심화(월,수)\프로젝트\분식집POS\분식집POS\obj\Debug\근무자 조회.g.cs
+C:\Woosin\용인대학교 컴퓨터과학과\3학년2학기\윈도우고급심화(월,수)\프로젝트\분식집POS\분식집POS\obj\Debug\메뉴.g.cs
+C:\Woosin\용인대학교 컴퓨터과학과\3학년2학기\윈도우고급심화(월,수)\프로젝트\분식집POS\분식집POS\obj\Debug\메인.g.cs
+C:\Woosin\용인대학교 컴퓨터과학과\3학년2학기\윈도우고급심화(월,수)\프로젝트\분식집POS\분식집POS\obj\Debug\상품결제.g.cs
+C:\Woosin\용인대학교 컴퓨터과학과\3학년2학기\윈도우고급심화(월,수)\프로젝트\분식집POS\분식집POS\obj\Debug\재고조회.g.cs
+C:\Woosin\용인대학교 컴퓨터과학과\3학년2학기\윈도우고급심화(월,수)\프로젝트\분식집POS\분식집POS\obj\Debug\점주메뉴.g.cs
+C:\Woosin\용인대학교 컴퓨터과학과\3학년2학기\윈도우고급심화(월,수)\프로젝트\분식집POS\분식집POS\obj\Debug\App.g.cs
+C:\Woosin\용인대학교 컴퓨터과학과\3학년2학기\윈도우고급심화(월,수)\프로젝트\분식집POS\분식집POS\obj\Debug\분식집POS_MarkupCompile.cache
+C:\Woosin\용인대학교 컴퓨터과학과\3학년2학기\윈도우고급심화(월,수)\프로젝트\분식집POS\분식집POS\obj\Debug\분식집POS_MarkupCompile.lref
+C:\Woosin\용인대학교 컴퓨터과학과\3학년2학기\윈도우고급심화(월,수)\프로젝트\분식집POS\분식집POS\obj\Debug\MainWindow.baml
+C:\Woosin\용인대학교 컴퓨터과학과\3학년2학기\윈도우고급심화(월,수)\프로젝트\분식집POS\분식집POS\obj\Debug\근무자 조회.baml
+C:\Woosin\용인대학교 컴퓨터과학과\3학년2학기\윈도우고급심화(월,수)\프로젝트\분식집POS\분식집POS\obj\Debug\메뉴.baml
+C:\Woosin\용인대학교 컴퓨터과학과\3학년2학기\윈도우고급심화(월,수)\프로젝트\분식집POS\분식집POS\obj\Debug\메인.baml
+C:\Woosin\용인대학교 컴퓨터과학과\3학년2학기\윈도우고급심화(월,수)\프로젝트\분식집POS\분식집POS\obj\Debug\상품결제.baml
+C:\Woosin\용인대학교 컴퓨터과학과\3학년2학기\윈도우고급심화(월,수)\프로젝트\분식집POS\분식집POS\obj\Debug\재고조회.baml
+C:\Woosin\용인대학교 컴퓨터과학과\3학년2학기\윈도우고급심화(월,수)\프로젝트\분식집POS\분식집POS\obj\Debug\점주메뉴.baml
+C:\Woosin\용인대학교 컴퓨터과학과\3학년2학기\윈도우고급심화(월,수)\프로젝트\분식집POS\분식집POS\obj\Debug\분식집POS.g.resources
+C:\Woosin\용인대학교 컴퓨터과학과\3학년2학기\윈도우고급심화(월,수)\프로젝트\분식집POS\분식집POS\obj\Debug\분식집POS.Properties.Resources.resources
+C:\Woosin\용인대학교 컴퓨터과학과\3학년2학기\윈도우고급심화(월,수)\프로젝트\분식집POS\분식집POS\obj\Debug\분식집POS.csproj.GenerateResource.cache
+C:\Woosin\용인대학교 컴퓨터과학과\3학년2학기\윈도우고급심화(월,수)\프로젝트\분식집POS\분식집POS\obj\Debug\분식집POS.csproj.CoreCompileInputs.cache
+C:\Woosin\용인대학교 컴퓨터과학과\3학년2학기\윈도우고급심화(월,수)\프로젝트\분식집POS\분식집POS\obj\Debug\분식집POS.exe
+C:\Woosin\용인대학교 컴퓨터과학과\3학년2학기\윈도우고급심화(월,수)\프로젝트\분식집POS\분식집POS\obj\Debug\분식집POS.pdb
